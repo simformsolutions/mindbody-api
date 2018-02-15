@@ -219,6 +219,7 @@
               <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
               <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
               <s:element minOccurs="1" maxOccurs="1" name="ScheduleType" nillable="true" type="tns:ScheduleType" />
+              <s:element minOccurs="0" maxOccurs="1" name="CancelOffset" type="s:int" />
             </s:sequence>
           </s:extension>
         </s:complexContent>
