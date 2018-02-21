@@ -22,7 +22,7 @@ module MindBody
       operation :get_client_schedule,            :required => [:client_id]
       operation :get_required_client_fields,                                                                                :locals => false
       operation :validate_login,                 :required => [:username, :password],                                       :locals => false
-      operation :update_client_services,         :required => [:client_services]
+      operation :update_client_services
       operation :send_user_new_password,         :required => [:user_email, :user_first_name, :user_last_name],             :locals => false
     end
   end
