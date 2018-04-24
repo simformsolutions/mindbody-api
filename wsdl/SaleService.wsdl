@@ -783,6 +783,7 @@
               <s:element minOccurs="0" maxOccurs="1" name="TaxIncluded" nillable="true" type="s:decimal" />
               <s:element minOccurs="0" maxOccurs="1" name="TaxRate" type="s:decimal" />
               <s:element minOccurs="0" maxOccurs="1" name="ProductID" type="s:double" />
+              <s:element minOccurs="0" maxOccurs="1" name="ProgramID" type="s:double" />
               <s:element minOccurs="0" maxOccurs="1" name="Action" type="tns:ActionCode" />
               <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
               <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
